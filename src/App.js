@@ -2,7 +2,7 @@ import DoanhNghiepPage from "./pages/DoanhNghiepPage"
 import { Route, Routes } from "react-router-dom"
 import HomePage from "./pages/HomePage"
 import CalendarPages from "./pages/CalendarPages"
-import FormMakeMoneyLayouts from "./layouts/FormMakeMoney/FormMakeMoneyLayouts"
+import SettingAccount from "./layouts/FormMakeMoney/SettingAccount"
 import FormMakeMoneyPage from "./pages/FormMakeMoneyPage"
 function App() {
 	return (
