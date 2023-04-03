@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-account {
+    width: 1000px;
+    height: 900px;
+    border: 1px solid;
+    margin-left: 100px;
+}
+.title-account {
+    height:50px;
+    border: 1px solid;
+}
+.title-account-info {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+.title-profile {
+    height:60px;
+    border: 1px solid;
+}
+.title-profile-1 {
+  font-size: 17px;
+  font-weight: 550;
+  margin-left: 20px;
+  margin-top: 10px;  
+}
+.title-profile-2 {
+    font-size: 15px;
+    margin-left: 20px;   
+    margin-top: 5px;
+}
+.title-name {
+    display: flex;
+    height: 59px;
+    border: 1px solid;
+}
+.title-firstname {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.title-firstname-1 {
+    font-size: 15px;
+}
+.title-firstname-2 {
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+.title-lastname  {
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+.title-lastname-1 {
+    font-size: 15px;
+}
+.title-lastname-2 {
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+.title-username {
+    height: 59px;
+    border: 1px solid;
+}
+.title-username-1 {
+    margin-left: 20px;
+    margin-top: 10px; 
+    font-size: 15px;
+}
+.title-username-2 {
+    display: flex;
+    margin-left: 20px;
+}
+.title-username-square {
+    height: 25px;
+    width: 130px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.title-username-3 {
+    color: gray;
+}
+.title-username-4 {
+    width: 300px;
+    height: 25px;
+    margin-top: 5px;
+}
+.title-photo {
+    height: 70px;
+    border: 1px solid;
+}
+.title-photo-1 {
+    margin-left: 20px;
+    margin-top: 10px; 
+    font-size: 15px;
+    font-weight: 600;
+}
+.title-photo-2 {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.photo-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+.photo-change {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.change {
+    height: 25px;
+    width: 60px;
+    font-weight: 600;
+    background-color: white;
+    border: 0px solid;
+    cursor: pointer;
+}
+.change:hover {
+   border: 1px solid black;
+   background-color: white;
+   color:black;
+   border-radius: 3px;
+}
+.photo-save {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.save {
+    height: 25px;
+    width: 60px;
+    font-weight: 600;
+    background-color: white;
+}

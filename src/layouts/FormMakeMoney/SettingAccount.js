@@ -46,7 +46,7 @@ const SettingAccount = () => {
 			<div className="title-about-2">Brief description for your profile.urls are hyperlinked.</div>
 		</div>
 		<div className="title-url">
-			<div className="title-url-1">url</div>
+			<div className="title-url-1">URL</div>
 			<input type="text" className="title-url-2"></input>
 		</div>
 		<div className="title-personal-information">
