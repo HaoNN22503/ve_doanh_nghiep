@@ -9,7 +9,7 @@ import { FaSortUp, FaSortDown } from "react-icons/fa"
 import ColorPicker from "../../components/Business/ColorPicker"
 import axios from "axios"
 import { useCallback } from "react"
-import instance from "../../data/instance"
+import instance from "../../layouts/data/instance"
 import Notification from "../../components/Business/Notification"
 const YourBusiness = ({ createBusinessPage }) => {
 	const [data, setData] = useState([])

@@ -1,0 +1,43 @@
+.setting-container {
+    display: flex;
+}
+.setting-all {
+    width: 300px;
+    height: auto;
+    border-right: 1px solid rgb(230,230,230);
+}
+.setting-info {
+    height: 40px;
+    border: 1px solid rgb(230,230,230);
+    padding:10px;
+}
+.setting-info-1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.setting-service {
+    height: 80px;
+    border: 1px solid rgb(230,230,230);
+    display: flex;
+   
+}
+.setting-service:hover {
+    background-color: rgb(235, 235, 235);
+}
+.setting-service:active {
+    background-color: lightgray;
+}
+.setting-service-icon {
+    padding: 10px;
+}
+.setting-service-info {
+   margin-top: 10px;
+}
+.setting-service-info-1 {
+    font-size:14px ;
+    font-weight: 600;
+}
+.setting-service-info-2 {
+    font-size: 14px;
+    margin-top: 5px;     
+}

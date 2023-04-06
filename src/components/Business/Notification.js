@@ -1,6 +1,6 @@
 import React from "react"
 import "./Notification.css"
-import notificationData from "../../data/notification"
+import notificationData from "../../layouts/data/notification"
 import { useState } from "react"
 const Notification = () => {
 	const [selectedData, setSelectedData] = useState([])
@@ -12,10 +12,10 @@ const Notification = () => {
 					<h3>Thông báo</h3>
 				</div>
 				<div className="content">
-					{notificationData.map((elements, index) => {
+					{notificationData.map((elements) => {
 						return (
 							<div
-								key={index}
+								key={elements.id}
 								className="card">
 								<div className="card-tag"></div>
 								<h4>{elements.title}</h4>

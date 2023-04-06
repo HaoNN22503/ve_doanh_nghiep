@@ -1,0 +1,141 @@
+.cotainer-notifi {
+    width: 900px;
+    margin-left: 20px;
+    /* border: 1px solid;
+    border-radius: 10px; */
+}
+.notifi-heading {
+    height: 90px; 
+    display: flex;
+}
+.tittle-notifi {
+    margin-top: 30px; 
+}
+.tittle-notifi-1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.tittle-notifi-2 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.option-notifi {
+    margin-top: 30px;
+    margin-left: auto;
+    display: flex;
+}
+.notifi-search {
+    padding: 7px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.notifi-change {
+    display: flex;
+    height: 30px;
+    width: 150px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 5px;
+margin-right: 30px;
+margin-top: 10px;
+}
+.notifi-change-info {
+    color: gray;
+}
+.notifi-change-info-1 {
+    color: black;
+    font-weight: 600;
+}
+.notifi-body-tittle {
+    height:50px;
+    border-bottom: 1px solid;
+    display: grid;
+    grid-template-columns: 140px 310px 220px 120px 120px;
+}
+.notifi-body-tittle-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+.notifi-body-content {
+    border-bottom: 1px solid;
+    display: grid;
+    grid-template-columns: 140px 300px 220px 120px 120px;
+}
+.notifi-name-customer {
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.notifi-subject {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.notifi-subject-tittle {
+    font-weight: 700;
+    font-size: 17px;
+}
+.notifi-subject-content {
+    margin-top: 10px;
+    color: gray;
+}
+.notifi-assigned {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.notifi-assigned-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+.notifi-assigned-info {
+    margin-left: 5px;
+}
+.notifi-assigned-name {
+    font-size: 17px;
+    font-weight: 600;
+}
+.notifi-assigned-job {
+    color: gray;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.notifi-Watting {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight:600; 
+}
+.notifi-status {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.notifi-status-option {
+    height: 30px;
+    width: 70px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 5px;
+    background-color: rgb(133, 219, 133);
+    color: green;
+}
+.notifi-status-icon {
+    font-size:x-large;
+    color: grey;
+    margin-top: 3px;
+}
+.notifi-bottom {
+    margin-top: 20px;
+    color: gray;
+}

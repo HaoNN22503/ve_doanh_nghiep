@@ -2,142 +2,286 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container-setting {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 88px;
+    /* margin-left: 82px; */
+} 
 .container-account {
-    width: 1000px;
-    height: 900px;
-    border: 1px solid;
-    margin-left: 100px;
-}
+    width: 500px;
+    margin-left: 20px;
+}   
 .title-account {
     height:50px;
-    border: 1px solid;
 }
 .title-account-info {
     font-size: 25px;
     font-weight: 700;
-    margin-left: 20px;
-    margin-top: 10px;   
+    margin-top: 30px;   
 }
 .title-profile {
     height:60px;
-    border: 1px solid;
 }
 .title-profile-1 {
   font-size: 17px;
-  font-weight: 550;
-  margin-left: 20px;
-  margin-top: 10px;  
+  font-weight: 550; 
 }
 .title-profile-2 {
-    font-size: 15px;
-    margin-left: 20px;   
+    font-size: 15px;   
     margin-top: 5px;
 }
 .title-name {
     display: flex;
     height: 59px;
-    border: 1px solid;
 }
 .title-firstname {
-    margin-left: 20px;
     margin-top: 10px;
 }
 .title-firstname-1 {
     font-size: 15px;
 }
-.title-firstname-2 {
-    width: 300px;
-    height: 25px;
+.title-firstname-2 {    
+    padding: 7px;
     margin-top: 5px;
+    border: 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
 }
 .title-lastname  {
-    margin-left: 20px;
-    margin-top: 10px;   
+    margin-top: 10px;  
+    margin-left: 30px; 
 }
 .title-lastname-1 {
     font-size: 15px;
 }
 .title-lastname-2 {
-    width: 300px;
-    height: 25px;
+    padding: 7px;
+    width: 200px;
     margin-top: 5px;
+    border: 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
 }
 .title-username {
     height: 59px;
-    border: 1px solid;
 }
 .title-username-1 {
-    margin-left: 20px;
-    margin-top: 10px; 
+    margin-top: 20px; 
     font-size: 15px;
 }
 .title-username-2 {
     display: flex;
-    margin-left: 20px;
 }
 .title-username-square {
-    height: 25px;
+    height: 30px;
     width: 130px;
-    border: 1px solid;
+    border: 1px solid rgb(200, 195, 195) ;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
 }
 .title-username-3 {
     color: gray;
 }
 .title-username-4 {
     width: 300px;
-    height: 25px;
+    height: 30px;
     margin-top: 5px;
+    border: 1px solid rgb(200, 195, 195);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    resize:none;
 }
 .title-photo {
     height: 70px;
-    border: 1px solid;
 }
 .title-photo-1 {
-    margin-left: 20px;
     margin-top: 10px; 
     font-size: 15px;
     font-weight: 600;
 }
 .title-photo-2 {
     display: flex;
-    margin-left: 20px;
     margin-top: 5px;
 }
 .photo-img {
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    border: 1px solid;
-}
-.photo-change {
-    margin-left: 10px;
-    margin-top: 5px;
-}
-.change {
-    height: 25px;
     width: 60px;
-    font-weight: 600;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid rgb(200, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo-img:hover{
+    background-color: white;
+}
+.change-img  {
+    width: 20px;
+    height:20px;
     background-color: white;
     border: 0px solid;
+    font-size: large;
+    border-radius: 100%;
     cursor: pointer;
 }
-.change:hover {
-   border: 1px solid black;
-   background-color: white;
-   color:black;
-   border-radius: 3px;
+.title-about {
+    height: 120px;
+    margin-top: 20px;
 }
-.photo-save {
-    margin-left: 10px;
+.title-about-1 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+.about-content {
+    width: 100% !important ;
+    height: 65px;
     margin-top: 5px;
+    resize:none;
+    border: 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
 }
-.save {
+.title-about-2 {
+    margin-top: 5px;
+    color: gray;
+    
+}
+.title-url {
+    height:70px;
+    border-bottom:1px solid rgb(200, 195, 195) ;
+}
+.title-url-1 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+.title-url-2 {
+    height: 30px;
+    width: 350px;
+    margin-top: 5px;
+    border: 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.title-personal-information {
+    height: 55px;
+}
+.title-personal-information-1 {
+    margin-top: 10px;
+    font-weight: 600;
+}
+.title-personal-information-2 {
+    margin-top: 5px;
+    font-size: 15px;
+}
+.personal-data {
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 10px;
+}
+.data-email {
+    margin-top: 10px;   
+}
+.data-email-1 {
+    font-weight: 600;
+    font-size: 14px;
+}
+.data-input {
+    padding :7px;
+    margin-top: 5px;
+    border: 1px solid rgb(200, 195, 195);
+    border-radius: 5px;
+  
+}
+.data-country {
+    margin-top: 20px;
+}
+.data-country-1 {
+    font-weight: 600;
+    font-size: 14px; 
+}
+.data-language {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.data-language-1 {
+    font-weight: 600;
+    font-size: 14px; 
+}
+.data-phone {
+    margin-left: 30px; 
+    margin-top: 10px;
+}
+.data-phone-1 {
+    font-weight: 600;
+    font-size: 14px;
+}
+.time-create-account {
+    height:30px;
+    border-bottom: 1px solid rgb(200, 195, 195); 
+    margin-top: 20px; 
+}
+.time-create-account-info {
+    font-size: 15px;
+    color: gray;
+}
+.account-button-end {
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+.account-button-cancel {
+    margin-left: auto;
+    margin-top: 10px; 
+}
+.account-button-cancel-1 {
+    font-weight: 600;
     height: 25px;
     width: 60px;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
+    border: 0.5px solid gray;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.account-button-cancel-1:hover {
+  background-color: black;
+  color: white;
+}
+.account-button-save {
+    margin-right:30px;
+    margin-top: 10px;
+}
+.account-button-save-1 {
+    font-weight: 600;
+    height: 25px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border: 0.5px solid blue;
+    border-radius: 3px;
+    color: white;
+}
+.account-button-save-1:hover {
+    background-color: white;
+    color: black;   
 }

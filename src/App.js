@@ -23,7 +23,7 @@ function App() {
 				<Route
 					path="makemoney"
 					element={<FormMakeMoneyPage />}
-				/>
+				/>	
 			</Routes>
 		</>
 	)
